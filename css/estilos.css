@@ -4,33 +4,41 @@
 }
 
 body{
-    margin: auto;
+    background: #1e1f24;
     color: #333;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 16px;
 }
 
 #cabecera{
-    background: #33A;
+    text-align: left;
+    background:#37488b;
     color: white;
     margin: 0;
-    padding: 0.8rem;
-    text-align: left;
-    box-shadow: 2px 2px 10px 5px rgb(39, 37, 37, 0.6);
+    padding: 0.5rem;
+    font-weight: bold;
+    box-shadow: 0px 2px 20px 0px rgb(0, 0, 0, 0.6);
     
+}
+
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #container{
     width: 70%;
-    text-align: center;
-    border:  1px solid #000;
+    text-align: left;
+    border:  1px solid #ddd;
     margin: 0  auto;
     margin-top: 3rem;
+    padding: 0;
 }
-#container span{
-    margin-left: 1.2rem;
-    font-size: 13px;
+#container #tagline{
+    padding: 0 0 0 1rem;
+    font-size: 0.8rem;
+    font-weight: normal;
 }
 
 #container h1{
@@ -39,8 +47,9 @@ body{
 }
 #post{
     padding: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
+    background: white;
 }
 #post p{
-    margin-top:  1rem;
+    padding: .3rem;
 }
