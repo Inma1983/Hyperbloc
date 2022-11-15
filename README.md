@@ -1,4 +1,4 @@
-# :tw-1f49a: Hyperbloc
+ Hyperbloc
 **Un blog increible para el** [curso de Git y Github](https://platzi.com/cursos/git-github/" curso de Git y Github" ) de [Platzi](https://platzi.com/"Platzi")
 
 
